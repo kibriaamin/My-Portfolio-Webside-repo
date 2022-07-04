@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.no-1 {
+    display: flex;
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.soma h1{
+    font-size: 50px;
+}
+.soma h1 span {
+    color: chocolate;
+} 
+.soma h3{
+    color: rgb(22, 119, 122);
+}
+.no-1 .soma p{
+    margin-top: 20px;
+    margin-bottom: 20ox;
+}
+
+.soma {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+/* .no-1 .soma a{
+    margin-top:15px ;
+} */
+
+.soma img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px 40px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+}
+.no-2{
+    display: flex;
+    margin-top: 100px;
+}
+.no-2 h1{
+    color: rgb(77, 12, 138);
+}
+.no-2 h2{
+    color: rgb(22, 119, 122);
+    margin-top: 10px;
+}
+.no-2 img{
+    width: 70%;
+}
+
+.no-2 .soma p{
+    margin-bottom: 20PX;
+}
+
