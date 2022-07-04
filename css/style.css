@@ -49,22 +49,87 @@ body{
     border-radius: 7px;
     color: #fff;
 }
+
+
 .no-2{
     display: flex;
     margin-top: 100px;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100px;
 }
+
+
 .no-2 h1{
-    color: rgb(77, 12, 138);
+    color: rgb(72, 1, 139);
 }
 .no-2 h2{
     color: rgb(22, 119, 122);
     margin-top: 10px;
 }
+.no-1 .soma p{
+    margin-bottom: 15px;
+}
 .no-2 img{
     width: 70%;
+}
+
+.no-2 .soma h2{
+    margin-bottom: 10px;
 }
 
 .no-2 .soma p{
     margin-bottom: 20PX;
 }
 
+.no-3 {
+    margin-top: 60px;
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 85px;
+}
+.no-3 h1{
+    font-size: 50px;
+    color:rgb(72, 1, 139);
+    margin-left: 15px;
+}
+.kib{
+    display: flex;
+}
+.kib .kala{
+    width: 50%;
+    margin: 20px 85px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    /* border-left: 3px solid gold; */
+}
+.kib .kala h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgba(189, 126, 9, 0.979);
+}
+
+.kib .kala h3{
+    color: rgb(82, 34, 194);
+    margin-bottom: 10px;
+}
+.kib .kala p{
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.kib .rifa{
+    border-left: 5px solid gold;
+}
+.kib .abbu{
+    border-left: 5px solid rgb(182, 240, 24);
+}
+footer{
+    margin-top: 130px;
+    margin-bottom:30px ;
+}
+footer p{
+    text-align: center;
+}
